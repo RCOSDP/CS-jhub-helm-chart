@@ -3124,9 +3124,9 @@ entries:
   jupyterhub:
   - apiVersion: v2
     appVersion: 1.4.2
-    created: "2022-12-16T14:41:20.861175+09:00"
+    created: "2022-12-20T11:47:10.875765+09:00"
     description: Multi-user Jupyter installation
-    digest: 6e33b9df8e03a783ab8a0666bd42a5e432fb2e04317db6c7b437ada8ca06fe86
+    digest: 029abc8af248af7d7ccd78690f23e20225363bcadcf44d0ecf1dc8458236d41e
     home: https://z2jh.jupyter.org
     icon: https://jupyter.org/assets/hublogo.svg
     keywords:
@@ -6442,4 +6442,4 @@ entries:
     urls:
     - https://jupyterhub.github.io/helm-chart/pebble-0.0.1.tgz
     version: 0.0.1
-generated: "2022-12-16T14:41:20.855215+09:00"
+generated: "2022-12-20T11:47:10.872285+09:00"

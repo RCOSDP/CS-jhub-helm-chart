@@ -38,6 +38,18 @@ entries:
     - https://rcosdp.github.io/CS-jhub-helm-chart/binderhub-0.2.5-20220816-01.tgz
     version: 0.2.5-20220816-01
   - apiVersion: v1
+    created: "2024-04-01T17:26:33.370806009+09:00"
+    dependencies:
+    - name: jupyterhub
+      repository: https://rcosdp.github.io/CS-jhub-helm-chart/
+      version: 3.2.1-20240401
+    description: A helm chart to install Binder
+    digest: 9cbbbabd2c5eecacbc1d9903e06443def687c0a931601e0fde853ec75cbe4c00
+    name: binderhub
+    urls:
+    - https://rcosdp.github.io/CS-jhub-helm-chart/binderhub-0.2.5-20240401.tgz
+    version: 0.2.5-20240401
+  - apiVersion: v1
     created: "2024-02-07T12:37:53.398033999+09:00"
     dependencies:
     - name: jupyterhub
@@ -6687,4 +6699,4 @@ entries:
     urls:
     - https://jupyterhub.github.io/helm-chart/pebble-0.0.1.tgz
     version: 0.0.1
-generated: "2024-04-01T10:08:43.525903004+09:00"
+generated: "2024-04-01T17:26:33.368378334+09:00"

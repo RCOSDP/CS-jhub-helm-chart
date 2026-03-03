@@ -3869,6 +3869,29 @@ entries:
     - https://rcosdp.github.io/CS-jhub-helm-chart/jupyterhub-4.1.0-0.dev.git.6950.h5e4c7698.tgz
     version: 4.1.0-0.dev.git.6950.h5e4c7698
   - apiVersion: v2
+    appVersion: 5.2.1
+    created: "2026-03-03T15:08:30.103523896+09:00"
+    description: Multi-user Jupyter installation
+    digest: da601df2728fc4e58844db9f9972be772d35f00c44fd5af8689526e3cf35386a
+    home: https://z2jh.jupyter.org
+    icon: https://hub.jupyter.org/helm-chart/images/hublogo.svg
+    keywords:
+    - jupyter
+    - jupyterhub
+    - z2jh
+    kubeVersion: '>=1.28.0-0'
+    maintainers:
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - name: Simon Li
+      url: https://github.com/manics/
+    name: jupyterhub
+    sources:
+    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
+    urls:
+    - https://rcosdp.github.io/CS-jhub-helm-chart/jupyterhub-3.2.1-20260303.tgz
+    version: 3.2.1-20260303
+  - apiVersion: v2
     appVersion: 3.1.1
     created: "2024-05-23T10:20:47.167658827+09:00"
     description: Multi-user Jupyter installation
@@ -7395,4 +7418,4 @@ entries:
     urls:
     - https://jupyterhub.github.io/helm-chart/pebble-0.0.1.tgz
     version: 0.0.1
-generated: "2026-01-30T14:07:22.80405742+09:00"
+generated: "2026-03-03T15:08:30.099195605+09:00"
